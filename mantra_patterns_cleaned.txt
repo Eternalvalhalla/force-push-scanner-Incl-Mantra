@@ -1,0 +1,144 @@
+ghp_[0-9A-Za-z]{36}
+gho_[0-9A-Za-z]{36}
+ghu_[0-9A-Za-z]{36}
+ghs_[0-9A-Za-z]{36}
+ghr_[0-9A-Za-z]{36}
+AKIA[0-9A-Z]{16}
+ASIA[0-9A-Z]{16}
+A3T[A-Z0-9]{13}
+aws_secret_access_key["']?[=:\s]+[0-9a-zA-Z\/+]{40}
+AIza[0-9A-Za-z\-_]{35}
+ya29\.[0-9A-Za-z\-_]+
+AIzaSy[0-9A-Za-z\-_]{33}
+sk_live_[0-9a-zA-Z]{24}
+sk_test_[0-9a-zA-Z]{24}
+rk_live_[0-9a-zA-Z]{24}
+rk_test_[0-9a-zA-Z]{24}
+pk_live_[0-9a-zA-Z]{24}
+pk_test_[0-9a-zA-Z]{24}
+xox[baprs]-[0-9A-Za-z]{10,48}
+slack-token[0-9A-Za-z\-]+
+sq0atp-[0-9A-Za-z\-_]{22}
+sq0csp-[0-9A-Za-z\-_]{43}
+EAA[0-9A-Za-z]{80,}
+EAAB[0-Za-z]+
+eyJ[A-Za-z0-9_\-]+\.[A-Za-z0-9_\-]+\.[A-Za-z0-9_\-]+
+ssh-rsa AAAA[0-9A-Za-z+\/]{100,}
+ssh-dss AAAA[0-9A-Za-z+\/]{100,}
+-----BEGIN PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----
+-----BEGIN DSA PRIVATE KEY-----
+-----BEGIN EC PRIVATE KEY-----
+-----BEGIN OPENSSH PRIVATE KEY-----
+password[ ]*=[ ]*["'][^"']{8,}
+secret[ ]*=[ ]*["'][^"']{8,}
+passwd[ ]*=[ ]*["'][^"']{8,}
+pwd[ ]*=[ ]*["'][^"']{8,}
+api_key[ ]*=[ ]*["'][^"']{16,}
+token[ ]*=[ ]*["'][^"']{16,}
+client_secret[ ]*=[ ]*["'][^"']{16,}
+aws_secret_access_key[ ]*=[ ]*["'][^"']{40,}
+authorization[ ]*=[ ]*["'][^"']{16,}
+private_key[ ]*=[ ]*["'][^"']{16,}
+secret_key[ ]*=[ ]*["'][^"']{16,}
+password[ ]*:[ ]*[^\s]{8,}
+card:[0-9xX\s\-]{12,19}
+4[0-9]{12}([0-9]{3})
+5[1-5][0-9]{14}
+3[47][0-9]{13}
+3(0[0-5]|[68][0-9])[0-9]{11}
+6(011|5[0-9]{2})[0-9]{12}
+azure_subscription_id[ ]*=[ ]*["'][0-9a-fA-F-]{36}["']
+azure_client_id[ ]*=[ ]*["'][0-9a-fA-F-]{36}["']
+azure_tenant_id[ ]*=[ ]*["'][0-9a-fA-F-]{36}["']
+azure_client_secret[ ]*=[ ]*["'][^"']{16,}
+api_key[ ]*[:=][ ]*["'][^"']{16,}
+bearer[ ]+[0-9a-zA-Z\-\_~+\/]+=*
+secret[ ]*[:=][ ]*["'][^"']{8,}
+token[ ]*[:=][ ]*["'][^"']{16,}
+auth_token[ ]*[:=][ ]*["'][^"']{16,}
+kube_config[ ]*[:=]
+docker_config[ ]*[:=]
+-----BEGIN CERTIFICATE-----
+oauth_token[ ]*[:=][ ]*["'][^"']{16,}
+oauth_secret[ ]*[:=][ ]*["'][^"']{16,}
+heroku_api_key[ ]*=[ ]*["'][^"']{16,}
+SK[0-9a-fA-F]{32}
+AC[0-9a-fA-F]{32}
+glpat-[0-9a-zA-Z_-]{20}
+do_api_key[ ]*=[ ]*["'][^"']{16,}
+key-[0-9a-zA-Z]{32}
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+-----BEGIN PGP PRIVATE KEY BLOCK-----
+(?:api_key|secret_key|access_key|auth_token|bearer_token|password|client_secret|private_key|token|api[_-]?key(?:_id)?|api[_-]?token|api[_-]?secret|access[_-]?key(?:_id)?|access[_-]?token|account[_-]?key|account[_-]?token|auth[_-]?(?:token|key|secret)|authentication[_-]?(?:token|key|secret)|bearer[_-]?token|secret[_-]?key|secret[_-]?token|shared[_-]?secret|client[_-]?secret|client[_-]?id|consumer[_-]?key|consumer[_-]?secret|credential[s]?|creds?|crypt[_-]?key|db[_-]?(?:pass(?:word)?|user(?:name)?)|database[_-]?(?:pass(?:word)?|user(?:name)?)|encryption[_-]?key|gcp[_-]?(?:key|token|secret)|gcs[_-]?key|github[_-]?(?:token|key|secret)|gitlab[_-]?(?:token|key|secret)|heroku[_-]?(?:api[_-]?key|key|secret)|jwt(?:_secret)?|key[_-]?(?:id)?|kube[_-]?config|login[_-]?(?:pass(?:word)?|token|key)|mfa[_-]?secret|mysql[_-]?(?:pass(?:word)?|user(?:name)?)|mongo[_-]?(?:pass(?:word)?|user(?:name)?)|oauth[_-]?(?:token|secret|key|id)|openai[_-]?(?:key|token|secret)|pass(?:word)?s?|passwd|pwd|pg[_-]?(?:pass(?:word)?|user(?:name)?)|postgres[_-]?(?:pass(?:word)?|user(?:name)?)|private[_-]?key|public[_-]?key|refresh[_-]?token|registry[_-]?(?:key|token|secret)|rsa[_-]?key|sas[_-]?token|s3[_-]?(?:key|token|secret)|secret[s]?|security[_-]?(?:key|token|secret)|service[_-]?account[_-]?(?:key|token|secret)|slack[_-]?(?:token|key|secret)|smtp[_-]?(?:pass(?:word)?|token)|sqs[_-]?(?:key|token|secret)|ssh[_-]?key|storage[_-]?key|stripe[_-]?(?:key|token|secret)|symphony[_-]?(?:token|key|secret)|twilio[_-]?(?:key|token|secret|sid)|vault[_-]?(?:token|key|secret)|webhook[_-]?(?:key|token|secret)|zoom[_-]?(?:key|token|secret))\s*[:=]\s*['"]?([a-zA-Z0-9\-_.~+\/]{16,})['"]?
+Bearer\s+([a-zA-Z0-9\-_.~+\/]{32,})
+(?:azure_client_secret|client_secret)\s*[:=]\s*['"]?([a-zA-Z0-9\-_]{16,})['"]?
+[a-zA-Z0-9_.-]*secret[a-zA-Z0-9_.-]*\s*=\s*['"]?[a-zA-Z0-9_.-]+['"]?
+(?ix)
+  # GitHub tokens
+  gh[pousr]_[0-9A-Za-z]{36} |
+  github_pat_[0-9A-Za-z_]{82,} |
+
+  # AWS access keys
+  (?:AKIA|ASIA)[0-9A-Z]{16} |
+  A3T[A-Z0-9]{13} |
+  aws_secret_access_key["']?[=:\s]+[0-9a-zA-Z\/+]{40} |
+
+  # Google API keys & OAuth
+  AIza[0-9A-Za-z\-_]{35} |
+  AIzaSy[0-9A-Za-z\-_]{33} |
+  ya29\.[0-9A-Za-z\-_]+ |
+
+  # Stripe / Payment
+  (?:sk|rk|pk)_(?:live|test)_[0-9A-Za-z]{24} |
+
+  # Slack
+  xox[baprs]-[0-9A-Za-z]{10,48} |
+  slack-token[0-9A-Za-z\-]+ |
+  xoxa-2-[0-9A-Za-z\-]{64} |
+
+  # Square
+  sq0atp-[0-9A-Za-z\-_]{22} |
+  sq0csp-[0-9A-Za-z\-_]{43} |
+  sq0[a-z]{3}-[0-9A-Za-z\-_]{22,43} |
+
+  # Facebook tokens
+  EAAB[0-9A-Za-z]+ |
+  EAA[0-9A-Za-z]{80,} |
+
+  # JWT
+  eyJ[A-Za-z0-9_\-]+\.[A-Za-z0-9_\-]+\.[A-Za-z0-9_\-]+ |
+
+  # SSH keys
+  ssh-(?:rsa|dss) AAAA[0-9A-Za-z+\/]{100,} |
+
+  # Private key blocks
+  -----BEGIN (?:RSA |DSA |EC |OPENSSH )?PRIVATE KEY----- |
+  -----BEGIN ENCRYPTED PRIVATE KEY----- |
+  -----BEGIN PGP PRIVATE KEY BLOCK----- |
+
+  # Generic labelled secrets
+  (?:password|secret|passwd|pwd|api_key|token|client_secret|authorization|private_key|secret_key|auth_token|oauth_token|oauth_secret|heroku_api_key|do_api_key)\s*[:=]\s*["'][^"']{8,}["']? |
+
+  # Azure
+  azure_(?:subscription_id|client_id|tenant_id)\s*=\s*["'][0-9a-fA-F-]{36}["'] |
+  azure_client_secret\s*=\s*["'][^"']{16,}["'] |
+
+  # Twilio
+  (?:SK|AC)[0-9a-fA-F]{32} |
+
+  # GitLab tokens
+  glpat-[0-9A-Za-z_-]{20} |
+  glrt-[0-9A-Za-z_-]{20} |
+
+  # Misc
+  key-[0-9A-Za-z]{32} |
+  Bearer\s+[a-zA-Z0-9\-_.~+\/]{32,} |
+  [a-zA-Z0-9_.-]*secret[a-zA-Z0-9_.-]*\s*=\s*['"]?[a-zA-Z0-9_.-]+['"]? |
+
+  # New patterns
+  password\s*=\s*['"][^'"]+['"] |
+  username\s*=\s*['"][^'"]+['"] |
+  jdbc:mysql://[^/]+/[^?]+(?:\?.*)? |
+  jdbc:postgresql://[^/]+/[^?]+(?:\?.*)? |
+  Server=[^;]+;Database=[^;]+;User Id=[^;]+;Password=[^;]+;
