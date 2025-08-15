@@ -1,3 +1,29 @@
+
+All credits go to the original creators (Trufflesecurity and Sharon Brizinov for the research) as well as Mantra (https://github.com/brosck/mantra).
+
+My fork includes some custom code added that includes custom grep searches for secrets and mantra added on top of all the github commits (with .patch appended). You still need the sqlite db obviously from TruffleSecurity. The way you run it is same to the original:
+
+```python force_push_scanner.py <ORG_NAME> --db-file ../force_push_commits.sqlite3 --scan```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Below is all the original content
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Force Push Secret Scanner
 
 This tool scans for secrets in dangling (dereferenced) commits on GitHub created by force push events. A [force push](https://git-scm.com/docs/git-push#Documentation/git-push.txt---force) occurs when developers overwrite commit history, which often contains mistakes, like hard-coded credentials. This project relies on archived force push event data in the [GHArchive](https://www.gharchive.org/) to identify the relevant commits. 
